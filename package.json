@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)",
   "scripts": {
-    "dev": "rm -rf ./dist && parcel ./src/index.html",
-    "prod": "parcel build ./src/index.html",
-    "deploy": "rm -rf ./dist && npm run prod && gh-pages -d dist",
-    "gh": "gh-pages -d dist"
+    "dev": "rm -rf ./dist & parcel ./src/index.html",
+    "prod": "rm -rf ./dist & parcel build ./src/index.html --public-url ./"
   },
   "keywords": [],
   "author": "",
