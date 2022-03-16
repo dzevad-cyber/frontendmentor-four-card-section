@@ -43,10 +43,10 @@
   &__text {
     font-size: tp.$fz-base;
     max-width: 300px;
+    color: var.$clr-neutral-gray-blue;
 
     @media (min-width: 62.5em) {
       max-width: 540px;
-      color: var.$clr-neutral-gray-blue;
     }
   }
 }
