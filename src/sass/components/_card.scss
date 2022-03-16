@@ -1,0 +1,37 @@
+@use '../abstracts/variables' as var;
+
+.card {
+  display: grid;
+  padding: 3rem 4rem;
+  background-color: var.$clr-neutral-white;
+  border-radius: 10px;
+
+  &__desc {
+    color: var.$clr-neutral-gray-blue;
+  }
+
+  &__icon {
+    margin-top: 3rem;
+    justify-self: end;
+  }
+
+  &--cyan {
+    box-shadow: 0 5px 20px -5px var.$clr-neutral-gray-blue,
+      0 -5px 0 var.$clr-cyan;
+  }
+
+  &--red {
+    box-shadow: 0 5px 20px -5px var.$clr-neutral-gray-blue,
+      0 -5px 0 var.$clr-red;
+  }
+
+  &--orange {
+    box-shadow: 0 5px 20px -5px var.$clr-neutral-gray-blue,
+      0 -5px 0 var.$clr-orange;
+  }
+
+  &--blue {
+    box-shadow: 0 5px 20px -5px var.$clr-neutral-gray-blue,
+      0 -5px 0 var.$clr-blue;
+  }
+}
