@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "rm -rf ./dist && parcel ./src/index.html",
     "prod": "parcel build ./src/index.html",
-    "deploy": "rm -rf ./dist && npm run prod && gh-pages -d dist"
+    "deploy": "rm -rf ./dist && npm run prod && gh-pages -d dist",
+    "gh": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
